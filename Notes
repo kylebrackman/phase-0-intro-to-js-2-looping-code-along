@@ -1,0 +1,14 @@
+function writeCards(name, x) {
+    const newArray = []
+    for (let i = 0; i < name.length; i++) {
+        newArray.push (`Thank you, ${name[i]}, for the wonderful ${x} gift!`)
+    }
+    return newArray
+}
+
+function countDown(x) {
+    while (x >= 0) {
+        console.log(x)
+    x--
+    }
+}
